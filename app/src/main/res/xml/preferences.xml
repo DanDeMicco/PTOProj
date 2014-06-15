@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="?android:attr/colorBackground">
+    <EditTextPreference
+        android:key="hours_edittext_preference"
+        android:title="@string/hours_per_paycheck"
+        android:dialogTitle="@string/hours_per_paycheck"
+        android:numeric="decimal"
+        android:defaultValue="0.0"
+    >
+    </EditTextPreference>
+    <EditTextPreference
+        android:key="current_hours_edittext_preference"
+        android:title="@string/current_hours"
+        android:dialogTitle="@string/current_hours"
+        android:numeric="decimal"
+        android:defaultValue="0.0"
+        >
+    </EditTextPreference>
+    <EditTextPreference
+        android:key="max_hours_edittext_preference"
+        android:title="@string/max_hours"
+        android:dialogTitle="@string/max_hours"
+        android:numeric="decimal"
+        android:defaultValue="0.0"
+        >
+    </EditTextPreference>
+    <ListPreference
+        android:key="frequency_edittext_preference"
+        android:title="@string/frequency"
+        android:dialogTitle="@string/frequency"
+        android:entries="@array/frequency_arr"
+        android:entryValues="@array/frequency_arr"
+        android:defaultValue="biweekly"
+        >
+    </ListPreference>
+    <Preference
+        android:key="next_paycheck_preference"
+        android:title="@string/next_paycheck">
+    </Preference>
+
+</PreferenceScreen>

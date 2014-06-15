@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PTOProj</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="hours_per_paycheck">Hours per paycheck</string>
+    <string name="current_hours">Current Hours</string>
+    <string name="set_date">Next paycheck</string>
+    <string name="frequency">Frequency</string>
+    <string name="next_paycheck">Next paycheck</string>
+    <string name="choose_end_date">Calculate to</string>
+    <string name="max_hours">Max hours</string>
+    <string name="total_hours">Total hours</string>
+
+
+</resources>
